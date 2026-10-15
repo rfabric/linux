@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>rFabric Linux packages</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 46rem; margin: 3rem auto; padding: 0 1rem; line-height: 1.5; }
+  pre { background: #f4f4f5; padding: 0.75rem 1rem; overflow-x: auto; }
+</style>
+</head>
+<body>
+<h1>rFabric Linux packages</h1>
+<p>apt and dnf repository for the rFabric CLI (<code>rfabric</code>), robot agent (<code>rfabric-agent</code>) and remote (<code>rfabric-remote</code>). The installers add it for you:</p>
+<pre>curl -fsSL https://get.rfabric.io/cli.sh | sh      # CLI
+curl -fsSL https://get.rfabric.io/agent.sh | sh    # robot agent</pre>
+<p>Upgrades arrive with <code>apt-get upgrade</code> / <code>dnf upgrade</code>. Signing key: <a href="@BASE_URL@/rfabric.asc">rfabric.asc</a>.</p>
+</body>
+</html>
